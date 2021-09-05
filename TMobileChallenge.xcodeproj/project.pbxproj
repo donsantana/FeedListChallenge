@@ -12,7 +12,6 @@
 		C622C7A026E17F2B00A2FDF1 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C79F26E17F2B00A2FDF1 /* FeedViewModel.swift */; };
 		C622C7A226E1DB7400A2FDF1 /* ResponseDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C7A126E1DB7400A2FDF1 /* ResponseDataViewModel.swift */; };
 		C622C7A426E1DCD400A2FDF1 /* FeedItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C7A326E1DCD400A2FDF1 /* FeedItemViewModel.swift */; };
-		C622C7A626E5201300A2FDF1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C7A526E5201300A2FDF1 /* View.swift */; };
 		C6FCEF6826E03FBE00F6C97D /* TMobileChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF6726E03FBE00F6C97D /* TMobileChallengeApp.swift */; };
 		C6FCEF6A26E03FBE00F6C97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF6926E03FBE00F6C97D /* ContentView.swift */; };
 		C6FCEF6C26E03FC400F6C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEF6B26E03FC400F6C97D /* Assets.xcassets */; };
@@ -50,7 +49,6 @@
 		C622C79F26E17F2B00A2FDF1 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		C622C7A126E1DB7400A2FDF1 /* ResponseDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDataViewModel.swift; sourceTree = "<group>"; };
 		C622C7A326E1DCD400A2FDF1 /* FeedItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemViewModel.swift; sourceTree = "<group>"; };
-		C622C7A526E5201300A2FDF1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C6FCEF6426E03FBE00F6C97D /* TMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FCEF6726E03FBE00F6C97D /* TMobileChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeApp.swift; sourceTree = "<group>"; };
 		C6FCEF6926E03FBE00F6C97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				C6FCEFA126E0F84C00F6C97D /* FeedItemView.swift */,
-				C622C7A526E5201300A2FDF1 /* View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,7 +344,6 @@
 				C6FCEF9726E040E000F6C97D /* GlobalVariables.swift in Sources */,
 				C6FCEF9D26E06E4E00F6C97D /* ApiResponse.swift in Sources */,
 				C6FCEF9426E0404900F6C97D /* ApiService.swift in Sources */,
-				C622C7A626E5201300A2FDF1 /* View.swift in Sources */,
 				C622C7A226E1DB7400A2FDF1 /* ResponseDataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
