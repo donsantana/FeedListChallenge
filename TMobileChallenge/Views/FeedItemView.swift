@@ -19,11 +19,10 @@ struct FeedItemView: View {
       RoundedRectangle(cornerRadius: 0, style: .continuous)
         .fill(Color.init(.white))
       VStack(alignment: .leading){
-        Text("\(feedViewModel.feed.category)").fontWeight(.regular).textCase(.uppercase).font(.body).foregroundColor(.gray)
+        Text("\(feedViewModel.feed.category)").fontWeight(.regular).textCase(.uppercase).font(.system(size: 14)).foregroundColor(.gray)
         Text("\(feedViewModel.feed.title)").fontWeight(.medium)
-          .font(.body)
-          .multilineTextAlignment(.leading)
-          .lineLimit(nil)
+          .font(.system(size: 17))
+          .fixedSize(horizontal: false, vertical: true)
         Image(uiImage: self.image)
           .resizable()
           .onAppear {
@@ -36,7 +35,7 @@ struct FeedItemView: View {
           HStack{
             HStack{
               Image("upArrow")
-              Text("\(feedViewModel.feed.score)").font(.footnote)
+              Text(feedViewModel.getScore()).font(.footnote)
               Image("downArrow")
             }.foregroundColor(Color(.lightGray))
             Spacer()
@@ -50,8 +49,9 @@ struct FeedItemView: View {
               Text("Share").font(.footnote)
             }.foregroundColor(Color(.lightGray))
           }
-        }
+        }.padding()
       }
     }
+
   }
 }

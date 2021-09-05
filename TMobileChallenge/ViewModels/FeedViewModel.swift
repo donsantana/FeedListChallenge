@@ -19,4 +19,8 @@ struct FeedViewModel{
     
     return [CGFloat(120),CGFloat(120)]
   }
+  
+  func getScore() -> String {
+    return feed.score < 1000 ? String(feed.score) : "\(Double(feed.score)/1000.0)k"
+  }
 }

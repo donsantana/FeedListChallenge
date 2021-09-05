@@ -10,12 +10,13 @@ import SwiftUI
 struct ContentView: View {
   var apiService = ApiService()
   @State var responseDataViewModel: ResponseDataViewModel!
-  
+
   var body: some View {
     NavigationView{
       if responseDataViewModel != nil{
         List(responseDataViewModel.getFeedItemList(),id: \.feedItem.id){ feedItem in
           FeedItemView(feedViewModel: feedItem.getFeed())
+            .listRowBackground(Color.black)
             .onAppear(){
               let thresholdIndex = responseDataViewModel.getFeedItemList().index(responseDataViewModel.getFeedItemList().endIndex, offsetBy: -1)
               if responseDataViewModel.getFeedItemList().firstIndex(where: { $0.id() == feedItem.id() }) == thresholdIndex {
@@ -27,6 +28,7 @@ struct ContentView: View {
             }
         }
         .navigationTitle(Text("Feeds"))
+        .listStyle(InsetGroupedListStyle())
       }else{
         ProgressView()
       }
