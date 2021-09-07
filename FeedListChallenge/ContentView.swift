@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TMobileChallenge
+//  FeedListChallenge
 //
 //  Created by Donelkys Santana on 9/1/21.
 //
@@ -16,7 +16,6 @@ struct ContentView: View {
       if responseDataViewModel != nil{
         List(responseDataViewModel.getFeedItemList(),id: \.feedItem.id){ feedItem in
           FeedItemView(feedViewModel: feedItem.getFeed())
-            .listRowBackground(Color.black)
             .onAppear(){
               let thresholdIndex = responseDataViewModel.getFeedItemList().index(responseDataViewModel.getFeedItemList().endIndex, offsetBy: -1)
               if responseDataViewModel.getFeedItemList().firstIndex(where: { $0.id() == feedItem.id() }) == thresholdIndex {
@@ -26,12 +25,13 @@ struct ContentView: View {
                 })
               }
             }
+            .padding(EdgeInsets(top: 0, leading: 0, bottom: 15, trailing: 0))
         }
         .navigationTitle(Text("Feeds"))
-        .listStyle(InsetGroupedListStyle())
       }else{
         ProgressView()
       }
+      
     }
     .onAppear(){
       apiService.getScrollFeedsAPI(afterLink: nil, completion: {(responseDataViewModel) in

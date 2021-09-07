@@ -1,14 +1,14 @@
 //
-//  TMobileChallengeTests.swift
-//  TMobileChallengeTests
+//  FeedListChallengeTests.swift
+//  FeedListChallengeTests
 //
 //  Created by Donelkys Santana on 9/1/21.
 //
 
 import XCTest
-@testable import TMobileChallenge
+@testable import FeedListChallenge
 
-class TMobileChallengeTests: XCTestCase {
+class FeedListChallengeTests: XCTestCase {
   var feed: Feed!
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

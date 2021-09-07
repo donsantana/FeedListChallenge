@@ -1,6 +1,6 @@
 //
 //  FeedItemViewModel.swift
-//  TMobileChallenge
+//  FeedListChallenge
 //
 //  Created by Donelkys Santana on 9/2/21.
 //

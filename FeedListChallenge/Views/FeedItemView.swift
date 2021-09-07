@@ -1,6 +1,6 @@
 //
 //  FeedItemView.swift
-//  TMobileChallenge
+//  FeedListChallenge
 //
 //  Created by Donelkys Santana on 9/2/21.
 //
@@ -15,9 +15,6 @@ struct FeedItemView: View {
   
   var body: some View{
       //shadow(color: .gray, radius: 0, x: 0.0, y: 0.0)
-    ZStack{
-      RoundedRectangle(cornerRadius: 0, style: .continuous)
-        .fill(Color.init(.white))
       VStack(alignment: .leading){
         Text("\(feedViewModel.feed.category)").fontWeight(.regular).textCase(.uppercase).font(.system(size: 14)).foregroundColor(.gray)
         Text("\(feedViewModel.feed.title)").fontWeight(.medium)
@@ -49,9 +46,7 @@ struct FeedItemView: View {
               Text("Share").font(.footnote)
             }.foregroundColor(Color(.lightGray))
           }
-        }.padding()
+        }.padding(EdgeInsets.init(top: 0, leading: 5, bottom: 0, trailing: 5))
       }
-    }
-
   }
 }

@@ -1,6 +1,6 @@
 //
 //  Feed.swift
-//  TMobileChallenge
+//  FeedListChallenge
 //
 //  Created by Donelkys Santana on 9/1/21.
 //

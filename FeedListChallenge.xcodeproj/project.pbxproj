@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61429B226E7AE1E00DB7647 /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61429B126E7AE1E00DB7647 /* FeedItemView.swift */; };
+		C61429B426E7AE3600DB7647 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png in Resources */ = {isa = PBXBuildFile; fileRef = C61429B326E7AE3600DB7647 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png */; };
 		C622C79C26E160BA00A2FDF1 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C79B26E160BA00A2FDF1 /* FeedItem.swift */; };
 		C622C79E26E175B800A2FDF1 /* ImageLeaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C79D26E175B800A2FDF1 /* ImageLeaderService.swift */; };
 		C622C7A026E17F2B00A2FDF1 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C79F26E17F2B00A2FDF1 /* FeedViewModel.swift */; };
 		C622C7A226E1DB7400A2FDF1 /* ResponseDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C7A126E1DB7400A2FDF1 /* ResponseDataViewModel.swift */; };
 		C622C7A426E1DCD400A2FDF1 /* FeedItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622C7A326E1DCD400A2FDF1 /* FeedItemViewModel.swift */; };
-		C6FCEF6826E03FBE00F6C97D /* TMobileChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF6726E03FBE00F6C97D /* TMobileChallengeApp.swift */; };
+		C6FCEF6826E03FBE00F6C97D /* FeedListChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF6726E03FBE00F6C97D /* FeedListChallengeApp.swift */; };
 		C6FCEF6A26E03FBE00F6C97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF6926E03FBE00F6C97D /* ContentView.swift */; };
 		C6FCEF6C26E03FC400F6C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEF6B26E03FC400F6C97D /* Assets.xcassets */; };
 		C6FCEF6F26E03FC400F6C97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEF6E26E03FC400F6C97D /* Preview Assets.xcassets */; };
-		C6FCEF7A26E03FC400F6C97D /* TMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF7926E03FC400F6C97D /* TMobileChallengeTests.swift */; };
-		C6FCEF8526E03FC400F6C97D /* TMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF8426E03FC400F6C97D /* TMobileChallengeUITests.swift */; };
+		C6FCEF7A26E03FC400F6C97D /* FeedListChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF7926E03FC400F6C97D /* FeedListChallengeTests.swift */; };
+		C6FCEF8526E03FC400F6C97D /* FeedListChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF8426E03FC400F6C97D /* FeedListChallengeUITests.swift */; };
 		C6FCEF9426E0404900F6C97D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF9326E0404900F6C97D /* ApiService.swift */; };
 		C6FCEF9726E040E000F6C97D /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF9626E040E000F6C97D /* GlobalVariables.swift */; };
 		C6FCEF9B26E060AB00F6C97D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF9A26E060AB00F6C97D /* Feed.swift */; };
 		C6FCEF9D26E06E4E00F6C97D /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF9C26E06E4E00F6C97D /* ApiResponse.swift */; };
 		C6FCEF9F26E06F5E00F6C97D /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEF9E26E06F5E00F6C97D /* ResponseData.swift */; };
-		C6FCEFA226E0F84C00F6C97D /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FCEFA126E0F84C00F6C97D /* FeedItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61429B126E7AE1E00DB7647 /* FeedItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
+		C61429B326E7AE3600DB7647 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png"; sourceTree = "<group>"; };
 		C622C79B26E160BA00A2FDF1 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		C622C79D26E175B800A2FDF1 /* ImageLeaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLeaderService.swift; sourceTree = "<group>"; };
 		C622C79F26E17F2B00A2FDF1 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		C622C7A126E1DB7400A2FDF1 /* ResponseDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDataViewModel.swift; sourceTree = "<group>"; };
 		C622C7A326E1DCD400A2FDF1 /* FeedItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemViewModel.swift; sourceTree = "<group>"; };
-		C6FCEF6426E03FBE00F6C97D /* TMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FCEF6726E03FBE00F6C97D /* TMobileChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeApp.swift; sourceTree = "<group>"; };
+		C6FCEF6426E03FBE00F6C97D /* FeedListChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedListChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FCEF6726E03FBE00F6C97D /* FeedListChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListChallengeApp.swift; sourceTree = "<group>"; };
 		C6FCEF6926E03FBE00F6C97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6FCEF6B26E03FC400F6C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FCEF6E26E03FC400F6C97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6FCEF7026E03FC400F6C97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6FCEF7526E03FC400F6C97D /* TMobileChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMobileChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FCEF7926E03FC400F6C97D /* TMobileChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeTests.swift; sourceTree = "<group>"; };
+		C6FCEF7526E03FC400F6C97D /* FeedListChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedListChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FCEF7926E03FC400F6C97D /* FeedListChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListChallengeTests.swift; sourceTree = "<group>"; };
 		C6FCEF7B26E03FC400F6C97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6FCEF8026E03FC400F6C97D /* TMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FCEF8426E03FC400F6C97D /* TMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMobileChallengeUITests.swift; sourceTree = "<group>"; };
+		C6FCEF8026E03FC400F6C97D /* FeedListChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedListChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FCEF8426E03FC400F6C97D /* FeedListChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListChallengeUITests.swift; sourceTree = "<group>"; };
 		C6FCEF8626E03FC400F6C97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6FCEF9326E0404900F6C97D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		C6FCEF9626E040E000F6C97D /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		C6FCEF9A26E060AB00F6C97D /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		C6FCEF9C26E06E4E00F6C97D /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		C6FCEF9E26E06F5E00F6C97D /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
-		C6FCEFA126E0F84C00F6C97D /* FeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C61429B026E7ADC700DB7647 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C61429B326E7AE3600DB7647 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		C6FCEF5B26E03FBE00F6C97D = {
 			isa = PBXGroup;
 			children = (
-				C6FCEF6626E03FBE00F6C97D /* TMobileChallenge */,
-				C6FCEF7826E03FC400F6C97D /* TMobileChallengeTests */,
-				C6FCEF8326E03FC400F6C97D /* TMobileChallengeUITests */,
+				C6FCEF6626E03FBE00F6C97D /* FeedListChallenge */,
+				C6FCEF7826E03FC400F6C97D /* FeedListChallengeTests */,
+				C6FCEF8326E03FC400F6C97D /* FeedListChallengeUITests */,
 				C6FCEF6526E03FBE00F6C97D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,28 +117,29 @@
 		C6FCEF6526E03FBE00F6C97D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6FCEF6426E03FBE00F6C97D /* TMobileChallenge.app */,
-				C6FCEF7526E03FC400F6C97D /* TMobileChallengeTests.xctest */,
-				C6FCEF8026E03FC400F6C97D /* TMobileChallengeUITests.xctest */,
+				C6FCEF6426E03FBE00F6C97D /* FeedListChallenge.app */,
+				C6FCEF7526E03FC400F6C97D /* FeedListChallengeTests.xctest */,
+				C6FCEF8026E03FC400F6C97D /* FeedListChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6FCEF6626E03FBE00F6C97D /* TMobileChallenge */ = {
+		C6FCEF6626E03FBE00F6C97D /* FeedListChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				C61429B026E7ADC700DB7647 /* Images */,
 				C6FCEFA026E0F83300F6C97D /* Views */,
 				C6FCEF9926E0608700F6C97D /* Models */,
 				C6FCEF9826E0473B00F6C97D /* ViewModels */,
 				C6FCEF9526E040B200F6C97D /* GlobalVariables */,
 				C6FCEF9226E0402A00F6C97D /* Services */,
-				C6FCEF6726E03FBE00F6C97D /* TMobileChallengeApp.swift */,
+				C6FCEF6726E03FBE00F6C97D /* FeedListChallengeApp.swift */,
 				C6FCEF6926E03FBE00F6C97D /* ContentView.swift */,
 				C6FCEF6B26E03FC400F6C97D /* Assets.xcassets */,
 				C6FCEF7026E03FC400F6C97D /* Info.plist */,
 				C6FCEF6D26E03FC400F6C97D /* Preview Content */,
 			);
-			path = TMobileChallenge;
+			path = FeedListChallenge;
 			sourceTree = "<group>";
 		};
 		C6FCEF6D26E03FC400F6C97D /* Preview Content */ = {
@@ -139,22 +150,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C6FCEF7826E03FC400F6C97D /* TMobileChallengeTests */ = {
+		C6FCEF7826E03FC400F6C97D /* FeedListChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6FCEF7926E03FC400F6C97D /* TMobileChallengeTests.swift */,
+				C6FCEF7926E03FC400F6C97D /* FeedListChallengeTests.swift */,
 				C6FCEF7B26E03FC400F6C97D /* Info.plist */,
 			);
-			path = TMobileChallengeTests;
+			path = FeedListChallengeTests;
 			sourceTree = "<group>";
 		};
-		C6FCEF8326E03FC400F6C97D /* TMobileChallengeUITests */ = {
+		C6FCEF8326E03FC400F6C97D /* FeedListChallengeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C6FCEF8426E03FC400F6C97D /* TMobileChallengeUITests.swift */,
+				C6FCEF8426E03FC400F6C97D /* FeedListChallengeUITests.swift */,
 				C6FCEF8626E03FC400F6C97D /* Info.plist */,
 			);
-			path = TMobileChallengeUITests;
+			path = FeedListChallengeUITests;
 			sourceTree = "<group>";
 		};
 		C6FCEF9226E0402A00F6C97D /* Services */ = {
@@ -198,7 +209,7 @@
 		C6FCEFA026E0F83300F6C97D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C6FCEFA126E0F84C00F6C97D /* FeedItemView.swift */,
+				C61429B126E7AE1E00DB7647 /* FeedItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6FCEF6326E03FBE00F6C97D /* TMobileChallenge */ = {
+		C6FCEF6326E03FBE00F6C97D /* FeedListChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6FCEF8926E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallenge" */;
+			buildConfigurationList = C6FCEF8926E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallenge" */;
 			buildPhases = (
 				C6FCEF6026E03FBE00F6C97D /* Sources */,
 				C6FCEF6126E03FBE00F6C97D /* Frameworks */,
@@ -218,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = TMobileChallenge;
+			name = FeedListChallenge;
 			productName = TMobileChallenge;
-			productReference = C6FCEF6426E03FBE00F6C97D /* TMobileChallenge.app */;
+			productReference = C6FCEF6426E03FBE00F6C97D /* FeedListChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C6FCEF7426E03FC400F6C97D /* TMobileChallengeTests */ = {
+		C6FCEF7426E03FC400F6C97D /* FeedListChallengeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6FCEF8C26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallengeTests" */;
+			buildConfigurationList = C6FCEF8C26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallengeTests" */;
 			buildPhases = (
 				C6FCEF7126E03FC400F6C97D /* Sources */,
 				C6FCEF7226E03FC400F6C97D /* Frameworks */,
@@ -236,14 +247,14 @@
 			dependencies = (
 				C6FCEF7726E03FC400F6C97D /* PBXTargetDependency */,
 			);
-			name = TMobileChallengeTests;
+			name = FeedListChallengeTests;
 			productName = TMobileChallengeTests;
-			productReference = C6FCEF7526E03FC400F6C97D /* TMobileChallengeTests.xctest */;
+			productReference = C6FCEF7526E03FC400F6C97D /* FeedListChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C6FCEF7F26E03FC400F6C97D /* TMobileChallengeUITests */ = {
+		C6FCEF7F26E03FC400F6C97D /* FeedListChallengeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6FCEF8F26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallengeUITests" */;
+			buildConfigurationList = C6FCEF8F26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallengeUITests" */;
 			buildPhases = (
 				C6FCEF7C26E03FC400F6C97D /* Sources */,
 				C6FCEF7D26E03FC400F6C97D /* Frameworks */,
@@ -254,9 +265,9 @@
 			dependencies = (
 				C6FCEF8226E03FC400F6C97D /* PBXTargetDependency */,
 			);
-			name = TMobileChallengeUITests;
+			name = FeedListChallengeUITests;
 			productName = TMobileChallengeUITests;
-			productReference = C6FCEF8026E03FC400F6C97D /* TMobileChallengeUITests.xctest */;
+			productReference = C6FCEF8026E03FC400F6C97D /* FeedListChallengeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6FCEF5F26E03FBE00F6C97D /* Build configuration list for PBXProject "TMobileChallenge" */;
+			buildConfigurationList = C6FCEF5F26E03FBE00F6C97D /* Build configuration list for PBXProject "FeedListChallenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -294,9 +305,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6FCEF6326E03FBE00F6C97D /* TMobileChallenge */,
-				C6FCEF7426E03FC400F6C97D /* TMobileChallengeTests */,
-				C6FCEF7F26E03FC400F6C97D /* TMobileChallengeUITests */,
+				C6FCEF6326E03FBE00F6C97D /* FeedListChallenge */,
+				C6FCEF7426E03FC400F6C97D /* FeedListChallengeTests */,
+				C6FCEF7F26E03FC400F6C97D /* FeedListChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61429B426E7AE3600DB7647 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-07 at 09.24.49.png in Resources */,
 				C6FCEF6F26E03FC400F6C97D /* Preview Assets.xcassets in Resources */,
 				C6FCEF6C26E03FC400F6C97D /* Assets.xcassets in Resources */,
 			);
@@ -335,11 +347,11 @@
 				C6FCEF9F26E06F5E00F6C97D /* ResponseData.swift in Sources */,
 				C622C7A426E1DCD400A2FDF1 /* FeedItemViewModel.swift in Sources */,
 				C6FCEF6A26E03FBE00F6C97D /* ContentView.swift in Sources */,
+				C61429B226E7AE1E00DB7647 /* FeedItemView.swift in Sources */,
 				C6FCEF9B26E060AB00F6C97D /* Feed.swift in Sources */,
-				C6FCEFA226E0F84C00F6C97D /* FeedItemView.swift in Sources */,
 				C622C79E26E175B800A2FDF1 /* ImageLeaderService.swift in Sources */,
 				C622C7A026E17F2B00A2FDF1 /* FeedViewModel.swift in Sources */,
-				C6FCEF6826E03FBE00F6C97D /* TMobileChallengeApp.swift in Sources */,
+				C6FCEF6826E03FBE00F6C97D /* FeedListChallengeApp.swift in Sources */,
 				C622C79C26E160BA00A2FDF1 /* FeedItem.swift in Sources */,
 				C6FCEF9726E040E000F6C97D /* GlobalVariables.swift in Sources */,
 				C6FCEF9D26E06E4E00F6C97D /* ApiResponse.swift in Sources */,
@@ -352,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6FCEF7A26E03FC400F6C97D /* TMobileChallengeTests.swift in Sources */,
+				C6FCEF7A26E03FC400F6C97D /* FeedListChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6FCEF8526E03FC400F6C97D /* TMobileChallengeUITests.swift in Sources */,
+				C6FCEF8526E03FC400F6C97D /* FeedListChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,12 +381,12 @@
 /* Begin PBXTargetDependency section */
 		C6FCEF7726E03FC400F6C97D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6FCEF6326E03FBE00F6C97D /* TMobileChallenge */;
+			target = C6FCEF6326E03FBE00F6C97D /* FeedListChallenge */;
 			targetProxy = C6FCEF7626E03FC400F6C97D /* PBXContainerItemProxy */;
 		};
 		C6FCEF8226E03FC400F6C97D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C6FCEF6326E03FBE00F6C97D /* TMobileChallenge */;
+			target = C6FCEF6326E03FBE00F6C97D /* FeedListChallenge */;
 			targetProxy = C6FCEF8126E03FC400F6C97D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,16 +514,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TMobileChallenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FeedListChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 2VMNV5JH5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TMobileChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FeedListChallenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adidev.TMobileChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adidev.FeedListChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,16 +536,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TMobileChallenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FeedListChallenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 2VMNV5JH5M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TMobileChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FeedListChallenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adidev.TMobileChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adidev.FeedListChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -558,7 +570,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMobileChallenge.app/TMobileChallenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedListChallenge.app/FeedListChallenge";
 			};
 			name = Debug;
 		};
@@ -580,7 +592,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMobileChallenge.app/TMobileChallenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedListChallenge.app/FeedListChallenge";
 			};
 			name = Release;
 		};
@@ -627,7 +639,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6FCEF5F26E03FBE00F6C97D /* Build configuration list for PBXProject "TMobileChallenge" */ = {
+		C6FCEF5F26E03FBE00F6C97D /* Build configuration list for PBXProject "FeedListChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6FCEF8726E03FC400F6C97D /* Debug */,
@@ -636,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6FCEF8926E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallenge" */ = {
+		C6FCEF8926E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6FCEF8A26E03FC400F6C97D /* Debug */,
@@ -645,7 +657,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6FCEF8C26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallengeTests" */ = {
+		C6FCEF8C26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallengeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6FCEF8D26E03FC400F6C97D /* Debug */,
@@ -654,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6FCEF8F26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "TMobileChallengeUITests" */ = {
+		C6FCEF8F26E03FC400F6C97D /* Build configuration list for PBXNativeTarget "FeedListChallengeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6FCEF9026E03FC400F6C97D /* Debug */,
