@@ -2,7 +2,7 @@
 //  FeedListChallengeUITests.swift
 //  FeedListChallengeUITests
 //
-//  Created by Donelkys Santana on 9/1/21.
+//  Created by Donelkys Santana on 9/7/21.
 //
 
 import XCTest

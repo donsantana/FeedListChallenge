@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct FeedItemView: View {
+  
   var feedViewModel: FeedViewModel
   @ObservedObject var imageLeader = ImageLoaderService()
   @State var image: UIImage = UIImage(named: "noImage")!

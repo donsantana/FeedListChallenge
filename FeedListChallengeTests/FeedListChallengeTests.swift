@@ -2,13 +2,14 @@
 //  FeedListChallengeTests.swift
 //  FeedListChallengeTests
 //
-//  Created by Donelkys Santana on 9/1/21.
+//  Created by Donelkys Santana on 9/7/21.
 //
 
 import XCTest
 @testable import FeedListChallenge
 
 class FeedListChallengeTests: XCTestCase {
+
   var feed: Feed!
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,7 +31,7 @@ class FeedListChallengeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-  
+
   func testAttributes(){
     XCTAssertEqual(feed.id, "1")
     XCTAssertEqual(feed.title, "Title Test")
@@ -41,5 +42,4 @@ class FeedListChallengeTests: XCTestCase {
     XCTAssertEqual(feed.score, 100)
     XCTAssertEqual(feed.numComments, 1000)
   }
-
 }
